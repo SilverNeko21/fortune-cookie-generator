@@ -3,6 +3,6 @@ var fortunesList = ["U gonna deaded", "Dirty Bob will visit u soon", "U will hav
 var fortune ;
 
 function generateFortuneCookie() {
- 	document.getElementById("fortune-cookie-text").innerHTML = Math.floor((Math.random() * 7) + 0);
+ 	document.getElementById("fortune-cookie-text").innerHTML = Math.floor((Math.random() * 6) + 0);
 }
 	
