@@ -2,7 +2,13 @@ var fortunesList = ["U gonna deaded", "Dirty Bob will visit u soon", "U will hav
 
 var fortune ;
 
+
 function generateFortuneCookie() {
- 	document.getElementById("fortune-cookie-text").innerHTML = Math.floor((Math.random() * 6) + 0);
-}
+	i = Math.floor((Math.random() * 6) + 0);
+ 	document.getElementById("fortune-cookie-text").innerHTML = fortunesList[i];
+ 	var List = document.createElement("LI");
+ 	var Listing = document.createTextNode(fortunesList[i]);
+ 	List.appendChild(Listing);
+ 	document.getElementById("previous-fortunes").appendChild(List);
+}	
 	
