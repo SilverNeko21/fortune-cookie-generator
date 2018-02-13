@@ -1,9 +1,9 @@
-var fortunesList = ["U gonna deaded!", "Dirty Bob will visit u soon.", "U will have to use da bathroom soon.", "U will continue to generate fortunes.", "U will actually believe that these are real.", "U will fiddle the riddle!"]
+var fortunesList = ["You're gonna die!", "Dirty Bob will visit you soon.", "You will have to use the bathroom soon.", "You will continue to generate fortunes.", "You will actually believe that these are real.", "You will fiddle the riddle!", "Burger King Foot Lettuce?", "You know I had to do it to em."]
 
 var fortune ;
 
 function generateFortuneCookie() {
-	i = Math.floor((Math.random() * 6));
+	i = Math.floor((Math.random() * 8));
  	document.getElementById("fortune-cookie-text").innerHTML = fortunesList[i];
  	
  	var List = document.createElement("LI");
