@@ -12,5 +12,6 @@ function generateFortuneCookie() {
  	document.getElementById("previous-fortunes").appendChild(List);
  	var before = document.getElementById("previous-fortunes");
  	before.insertBefore(List, before.childNodes[0]);
+ 	fortunesList.splice(fortunesList[1] , fortunesList[i]);	
 }	
 	
