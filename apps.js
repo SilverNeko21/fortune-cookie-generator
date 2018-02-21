@@ -20,3 +20,6 @@ function generateFortuneCookie() {
   	}
   }
 }	
+
+
+//just practicing commets
