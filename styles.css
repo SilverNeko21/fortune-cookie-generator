@@ -13,11 +13,29 @@
 	border: 1px solid #393c40;
 	text-align: center;
 	background-color: #ffff66;
-	margin-left: 40%;
+	margin-left: 25%;
 	margin-top: 2%;
 	height: auto;
 	width: 20%;
 	position: relative;
+}
+
+#Make-Multi {
+	position: relative;
+	font-size: 65%;
+}
+
+#multi {
+	font-size: 200%;
+	font-style: normal;
+	border: 1px solid #393c40;
+	text-align: center;
+	background-color: #ffff66;
+	margin-left: 10%;
+	margin-top: 2%;
+	height: 7%;
+	width: 20%;
+	position: absolute;
 }
 
 #FB {
