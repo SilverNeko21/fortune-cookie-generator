@@ -15,14 +15,14 @@
 	background-color: #ffff66;
 	margin-left: 25%;
 	margin-top: 2%;
-	height: auto;
+	height: 10%;
 	width: 20%;
 	position: relative;
 }
 
 #Make-Multi {
 	position: relative;
-	font-size: 65%;
+	font-size: 75%;
 }
 
 #multi {
@@ -33,9 +33,9 @@
 	background-color: #ffff66;
 	margin-left: 10%;
 	margin-top: 2%;
-	height: 7%;
+	height: 10%;
 	width: 20%;
-	position: absolute;
+	position: relative;
 }
 
 #FB {
