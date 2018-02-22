@@ -22,18 +22,18 @@ function generateFortuneCookie() {
 
 function multiFortune() {
   if (fortunesList.length > 0) {
-     document.getElementById("fortune-cookie-text").innerHTML = ""
-     for(var j = 1; j <= 5; j++){
+    document.getElementById("fortune-cookie-text").innerHTML = ""
+    for(var j = 1; j <= 5; j++){
 
-        i = Math.floor((Math.random() * fortunesList.length));
+      i = Math.floor((Math.random() * fortunesList.length));
       document.getElementById("fortune-cookie-text").innerHTML += fortunesList[i] + "</br>";
 
-        var List = document.createElement("LI");
-        var Listing = document.createTextNode(fortunesList[i]);
-       List.appendChild(Listing);
-       document.getElementById("previous-fortunes").appendChild(List);
-        var before = document.getElementById("previous-fortunes");
-        before.insertBefore(List, before.childNodes[0]);
+      var List = document.createElement("LI");
+      var Listing = document.createTextNode(fortunesList[i]);
+      List.appendChild(Listing);
+      document.getElementById("previous-fortunes").appendChild(List);
+      var before = document.getElementById("previous-fortunes");
+      before.insertBefore(List, before.childNodes[0]);
       fortunesList.splice(i , 1); 
 
       while (fortunesList.length == 0){
